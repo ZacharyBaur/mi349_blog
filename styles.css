@@ -1,6 +1,7 @@
 body {
     background: lightgray;
-    margin: 40px;
+    margin: 0 auto;
+    width: 100%;
     padding: 40px;
     border-top: 5pt dashed;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,8 +11,3 @@ h1 {
     font-size: 50px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
