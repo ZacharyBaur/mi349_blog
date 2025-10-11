@@ -22,7 +22,7 @@ p {
     font-size: 14px;
 }
 
-#blog-post {
+.blog-post {
     margin: 0 auto;
     padding: 10px;
     border-bottom: 1px solid;
