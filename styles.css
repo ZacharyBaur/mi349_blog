@@ -2,7 +2,7 @@ body {
     background: lightgray;
     margin: 40px;
     padding: 40px;
-    border-top: 5pt dashed;
+    border-top: 5pt dotted;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,3 +10,20 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+#blog-post {
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
