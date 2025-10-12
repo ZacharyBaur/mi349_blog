@@ -1,9 +1,15 @@
 body {
-    background: lightgray;
     margin: 40px;
     padding: 40px;
-    border-top: 5pt dotted;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 3pt dotted;
+    background: lightgrey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1 {
@@ -20,10 +26,4 @@ h3 {
 
 p {
     font-size: 14px;
-}
-
-.blog-post {
-    margin: 0 auto;
-    padding: 10px;
-    border-bottom: 1px solid;
 }
