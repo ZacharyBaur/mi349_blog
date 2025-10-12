@@ -36,6 +36,22 @@ p {
     line-height: 1.5;
 }
 
+th {
+    font-size: 22px;
+}
+
+td {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+ol {
+    font-size: 20px;
+}
+
 .blog-post {
     width: 80%;
     margin: 0 auto;
@@ -102,6 +118,14 @@ p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+textarea[name="comments-questions"] {
+    height: 70px;
 }
 
 #get-in-contact {
