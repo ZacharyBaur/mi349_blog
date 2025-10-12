@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+#index-title {
+    margin-bottom: 40px;
+    border-bottom: 3pt dotted;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -26,4 +31,9 @@ h3 {
 
 p {
     font-size: 14px;
+}
+
+.image {
+    width: 500px;
+    margin: 20px;
 }
