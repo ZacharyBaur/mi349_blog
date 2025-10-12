@@ -13,25 +13,34 @@
             <h1>Rippin' in the Mitten</h1>
             <nav>
                 <h2><a href=index.html>Home</a> | <a href=about.html>About</a> | <a href=contact.html>Contact</a></h2>
-                <h3>Let's Get in Contact!</h3>
+
             </nav>
         </header>
     </section>
+    <div id="contact-me">
+        <h3>Let's Get in Contact!</h3>
+    </div>
     <div id="contact-form">
         <form name="contact" netlify>
-            <label for="fname">Full Name:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Email"><br>
-            <label for="contact">Reason for Reaching Out:</label><br>
-            <select name="contact" id="contact">
-                <option value="hi">Saying Hi</option>
-                <option value="skatespot">Looking for skatespots</option>
-                <option value="interview">Interested in an interview</option>
-            </select><br>
-            <label for="comments-questions">Feel free to leave any questions, comments, or concerns!</label><br>
-            <textarea id="comments-questions" name="comments-questions" placeholder="Feedback"></textarea><br>
-            <input type="submit" value="Submit">
+            <div id="col1"></div>
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <label for="contact">Reason for Reaching Out:</label><br>
+                <select name="contact" id="contact">
+                    <option value="hi">Saying Hi</option>
+                    <option value="skatespot">Looking for skatespots</option>
+                    <option value="interview">Interested in an interview</option>
+                </select><br>
+            </div>
+            <div id="col2">
+                <label for="comments-questions">Feel free to leave any questions, comments, or concerns!</label><br>
+                <textarea id="comments-questions" name="comments-questions" placeholder="Feedback"></textarea><br>
+            </div>
+            <div id="col3">
+                <input type="submit" value="Submit">
+            </div>
         </form>
     </div>
     
