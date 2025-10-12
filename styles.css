@@ -99,3 +99,11 @@ p {
     margin: 0 auto;
     text-align: center;
 }
+
+#contact {
+    display: flex;
+}
+
+#col1, #col2, #col3 {
+    flex: 1;
+}
