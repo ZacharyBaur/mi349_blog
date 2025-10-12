@@ -18,20 +18,20 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     margin: 30px 0;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     margin: 20px 0;
     line-height: 1.5;
 }
@@ -50,7 +50,11 @@ p {
 }
 
 .image {
-    width: 500px;
+    width: 225px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #email_mailing_list {
