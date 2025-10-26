@@ -143,7 +143,6 @@ textarea[name="comments-questions"] {
 }
 
 @media only screen and (max-width: 800px) {
-    body {background-color: white;}
     h1 {font-size: 50px;}
     h2 {font-size: 25px;}
     h3 {font-size: 20px;}
@@ -160,19 +159,43 @@ textarea[name="comments-questions"] {
         width: 100%;
         margin: 0 auto;
     }
-    #bunt-table td {
+    td {
         font-size: 11pt;
     }
-    #bunt-table th {
+    th {
         font-size: 13pt;
+    }
+    ul {font-size: 11pt;}
+    li {font-size: 11pt;}
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .list-container {
+        display: flex;
+        justify-content: center;
+    }
+    #eliza-howell-obstacles {
+        width: min(700px, 90%)
+    }
+    #get-in-contact {
+        flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 515px) {
-    body {background-color: green;}
     #email_mailing_list {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    h1 {font-size: 35px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 15px;}
+    p {font-size: 13px;}
+    #get-in-contact {
+        flex-direction: column;
     }
 }
