@@ -141,3 +141,38 @@ textarea[name="comments-questions"] {
     flex-direction: column;
     justify-content: center;
 }
+
+@media only screen and (max-width: 800px) {
+    body {background-color: white;}
+    h1 {font-size: 50px;}
+    h2 {font-size: 25px;}
+    h3 {font-size: 20px;}
+    p {font-size: 15px;}
+    .image {
+        display: block;
+        float: unset;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #author-pic {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #bunt-table td {
+        font-size: 11pt;
+    }
+    #bunt-table th {
+        font-size: 13pt;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    body {background-color: green;}
+    #email_mailing_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
